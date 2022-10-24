@@ -56,7 +56,6 @@ section#login div#imagem{
 
 section#login div#formulario{
     padding: 10px;
-
 }
 
 #formulario h1 {
@@ -64,6 +63,7 @@ section#login div#formulario{
 }
 
 #formulario p {
+    margin-bottom: 10px;
     line-height: 1em;
     text-align: center;
     font-size: 0.9em;
@@ -81,6 +81,10 @@ div.campo{
     height: 40px;
     border-radius: 8px;
     margin: 5px 0;
+}
+
+div.campo > input:focus-visible{
+    background-color: #73faf5;
 }
 
 

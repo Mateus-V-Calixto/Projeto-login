@@ -7,6 +7,7 @@
     }
     
     section#login{
+        height: 400px;
         width: 80vw;
     }
 
@@ -22,11 +23,14 @@
         
     }
 
-    #formulario {
+    div#formulario {
+        margin-top: 50px;
         font-size: 1.2em;
     }
 
-
+    div.campo > input {
+        transform: translateY(-17px);
+    }
 
 }
 
@@ -35,6 +39,7 @@
         background-image: linear-gradient(to top, #49a09d , #5f2c83);
     }
     section#login{
+        height: 400px;
         width: 900px;
     }
 
@@ -51,7 +56,12 @@
     }
 
     #formulario {
+        margin-top: 50px;
         font-size: 1.2em;
+    }
+
+    div.campo > input {
+        transform: translateY(-17px);
     }
 
 }
